@@ -12,9 +12,6 @@ def start_button(client):
             [
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
-            ],
-            [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
             ]
         ]
         return buttons
@@ -26,9 +23,6 @@ def start_button(client):
             [
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
-            ],
-            [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
             ]
         ]
         return buttons
@@ -40,9 +34,6 @@ def start_button(client):
             [
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
-            ],
-            [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ]
         ]
         return buttons
@@ -57,9 +48,6 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")
-            ],
-            [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv")
             ]
         ]
         return buttons
@@ -70,9 +58,6 @@ def fsub_button(client, message):
         buttons = [
             [
                 InlineKeyboardButton(text="ᴊᴏɪɴ ɢʀᴏᴜᴘ", url=client.invitelink2),
-            ],
-[
-                InlineKeyboardButton(text="• FOLLOW JUGA TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ]
         ]
         try:
@@ -91,9 +76,6 @@ def fsub_button(client, message):
         buttons = [
             [
                 InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
-            ],
-[
-                InlineKeyboardButton(text="• FOLLOW JUGA TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ]
         ]
         try:
@@ -113,9 +95,6 @@ def fsub_button(client, message):
             [
                 InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
                 InlineKeyboardButton(text="ᴊᴏɪɴ ɢʀᴏᴜᴘ", url=client.invitelink2),
-            ],
-[
-                InlineKeyboardButton(text="• FOLLOW JUGA TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
             ]
         ]
         try:
